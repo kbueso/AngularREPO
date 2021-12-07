@@ -11,7 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { IconsProviderModule } from './icons-provider.module';
 import { MenuComponent } from './pages/menu/menu.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
-import { HardwareComponent } from './pages/ticket/hardware.component';
+import { HardwareComponent } from './pages/ticket/ticket.component';
 //NGZORRO
 import { NZ_I18N } from 'ng-zorro-antd/i18n';
 import { en_US } from 'ng-zorro-antd/i18n';

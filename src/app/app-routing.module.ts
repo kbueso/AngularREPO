@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HardwareComponent } from './pages/ticket/hardware.component';
+import { HardwareComponent } from './pages/ticket/ticket.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
 

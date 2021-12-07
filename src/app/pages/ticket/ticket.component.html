@@ -3,17 +3,17 @@
 <nz-table #basicTable [nzData]="listOfTicket">
   <thead>
     <tr>
-      <th>Fabricante</th>
-      <th>Modelo</th>
-      <th>Service Tag</th>
+      <th>EventoId</th>
+      <th>Fecha</th>
+      <th>Hora</th>
       <th>Accion</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let data of basicTable.data">
-      <td>{{ data.fabricante }}</td>
-      <td>{{ data.modelo }}</td>
-      <td>{{ data.serviceTag }}</td>
+      <td>{{ data.eventoId }}</td>
+      <td>{{ data.fecha }}</td>
+      <td>{{ data.hora }}</td>
       <td>
         <a (click)="modificar(data)">Editar</a>
         <nz-divider nzType="vertical"></nz-divider>
@@ -40,7 +40,7 @@
       [nzMaskClosable]="false"
       [nzWidth]="720"
       [nzVisible]="visible"
-      nzTitle="Formulario Hardware"
+      nzTitle="Formulario Ticket"
       [nzFooter]="footerTpl"
       (nzOnClose)="close()"
     > 
